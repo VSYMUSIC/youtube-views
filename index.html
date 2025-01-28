@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vsy Music - YouTube Channel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #ff0000;
+            color: white;
+            padding: 10px;
+        }
+        .content {
+            margin: 20px;
+        }
+        iframe {
+            margin: 20px auto;
+            border: none;
+        }
+        button {
+            background-color: #ff0000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Vsy Music</h1>
+        <p>Explore and enjoy our music!</p>
+    </header>
+    <div class="content">
+        <h2>Watch Our Latest Video</h2>
+        <!-- Embed your latest video -->
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/GAWrgxTQ4uA" 
+            title="YouTube video player" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+        <h3>Subscribe to Our Channel</h3>
+        <!-- YouTube subscribe button -->
+        <div>
+            <script src="https://apis.google.com/js/platform.js"></script>
+            <div class="g-ytsubscribe" 
+                 data-channelid="UCQY60ZzUpCGcOV5m1fFpSJA" 
+                 data-layout="default" 
+                 data-theme="dark" 
+                 data-count="default">
+            </div>
+        </div>
+        <button onclick="window.open('https://youtube.com/@vsymusic10?si=6pzJz2BOoFgLkTFu', '_blank')">Visit My Channel</button>
+    </div>
+</body>
+</html>
